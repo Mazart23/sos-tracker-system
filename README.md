@@ -1,4 +1,4 @@
-# SOS Tracking System - Where Are My People
+# SOS Tracker System - Where Are My People
 
 A simple backend system for tracking users and their SOS devices in real-time using Django, Django REST Framework, Docker, and PostgreSQL.
 
@@ -9,8 +9,8 @@ A simple backend system for tracking users and their SOS devices in real-time us
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/sos-system.git
-cd sos-system
+git clone https://github.com/your-username/sos-tracker-system.git
+cd sos-tracker-system
 ```
 
 2. **Copy environment file and edit it to set your credentials**
