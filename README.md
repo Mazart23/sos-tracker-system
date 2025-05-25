@@ -22,20 +22,20 @@ cp .env.example .env
 3. **Build and start the services**
 
 ```bash
-docker-compose up --build
+docker compose up --build -d
 ```
 
 4. **Make and apply migrations**
 
 ```bash
-docker-compose run web python manage.py makemigrations
-docker-compose run web python manage.py migrate
+docker compose run web python manage.py makemigrations
+docker compose run web python manage.py migrate
 ```
 
 5. **Create a superuser (optional, for admin panel access)**
 
 ```bash
-docker-compose run web python manage.py createsuperuser
+docker compose run web python manage.py createsuperuser
 ```
 
 5. **Visit the API docs and admin panel**
